@@ -10,16 +10,16 @@ public class Main {
 
         Rectangle rect = new Rectangle();
 
-        System.out.print("Введите длину стороны a - ");
+        System.out.print("Р’РІРµРґРёС‚Рµ РґР»РёРЅСѓ СЃС‚РѕСЂРѕРЅС‹ a - ");
 
         rect.side1 = input.nextDouble();
 
-        System.out.print("Введите длину стороны b - ");
+        System.out.print("Р’РІРµРґРёС‚Рµ РґР»РёРЅСѓ СЃС‚РѕСЂРѕРЅС‹ b - ");
 
         rect.side2 = input.nextDouble();
 
-        System.out.println("Площадь прямоугольника = " + rect.areaCalculator(rect.side1, rect.side2));
-        System.out.println("Периметр прямоугольника = " + rect.perimetrCalculator(rect.side1, rect.side2));
+        System.out.println("РџР»РѕС‰Р°РґСЊ РїСЂСЏРјРѕСѓРіРѕР»СЊРЅРёРєР° = " + rect.areaCalculator(rect.side1, rect.side2));
+        System.out.println("РџРµСЂРёРјРµС‚СЂ РїСЂСЏРјРѕСѓРіРѕР»СЊРЅРёРєР° = " + rect.perimetrCalculator(rect.side1, rect.side2));
 
 
     }

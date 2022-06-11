@@ -12,13 +12,13 @@ public class Book {
         Author author = new Author();
         Content content = new Content();
 
-        System.out.print("Введите название книги - ");
+        System.out.print("Р’РІРµРґРёС‚Рµ РЅР°Р·РІР°РЅРёРµ РєРЅРёРіРё - ");
         title.setTitle(input.nextLine());
 
-        System.out.print("Введите автора книги - ");
+        System.out.print("Р’РІРµРґРёС‚Рµ Р°РІС‚РѕСЂР° РєРЅРёРіРё - ");
         author.setAuthor(input.nextLine());
 
-        System.out.println("Введите содержание книги книги - ");
+        System.out.println("Р’РІРµРґРёС‚Рµ СЃРѕРґРµСЂР¶Р°РЅРёРµ РєРЅРёРіРё РєРЅРёРіРё - ");
         content.setCocontent(input.nextLine());
 
         title.show();

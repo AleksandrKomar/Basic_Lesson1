@@ -13,7 +13,7 @@ public class Computer {
         computers[4] = new Computer();
 
         for (int i = 0; i < computers.length; i++) {
-            computers[i].about = "Computer ¹" + (i + 1);
+            computers[i].about = "Computer â„–" + (i + 1);
         }
 
         for (Computer temp : computers) {

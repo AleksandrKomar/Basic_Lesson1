@@ -9,22 +9,22 @@ public class Main {
 
         Scanner input = new Scanner(System.in);
 
-        System.out.print("Введите страну - ");
+        System.out.print("Р’РІРµРґРёС‚Рµ СЃС‚СЂР°РЅСѓ - ");
         address.setCountry(input.nextLine());
 
-        System.out.print("Введите город - ");
+        System.out.print("Р’РІРµРґРёС‚Рµ РіРѕСЂРѕРґ - ");
         address.setCity(input.nextLine());
 
-        System.out.print("Введите улицу - ");
+        System.out.print("Р’РІРµРґРёС‚Рµ СѓР»РёС†Сѓ - ");
         address.setStreet(input.nextLine());
 
-        System.out.print("Введите номер дома - ");
+        System.out.print("Р’РІРµРґРёС‚Рµ РЅРѕРјРµСЂ РґРѕРјР° - ");
         address.setHouse(input.nextLine());
 
-        System.out.print("Введите квартиру - ");
+        System.out.print("Р’РІРµРґРёС‚Рµ РєРІР°СЂС‚РёСЂСѓ - ");
         address.setApartment(input.nextLine());
 
-        System.out.print("Введите индекс - ");
+        System.out.print("Р’РІРµРґРёС‚Рµ РёРЅРґРµРєСЃ - ");
         address.setIndex(input.nextInt());
 
         System.out.println(address.toString());
